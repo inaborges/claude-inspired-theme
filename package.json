@@ -1,0 +1,40 @@
+{
+  "name": "claude-inspired-theme",
+  "displayName": "Claude Inspired Theme",
+  "description": "A warm, professional theme inspired by Claude's design aesthetic",
+  "version": "1.0.0",
+  "publisher": "inaborges",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "claude",
+    "warm",
+    "orange",
+    "light",
+    "dark"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Claude Inspired Light",
+        "uiTheme": "vs",
+        "path": "./themes/claude-light.json"
+      },
+      {
+        "label": "Claude Inspired Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/claude-dark.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/inaborges/claude-inspired-theme"
+  },
+  "license": "MIT"
+}
