@@ -41,11 +41,19 @@ A comfortable dark theme with the same warm palette, perfect for low-light envir
    cd claude-inspired-theme
    ```
 
-2. Copy the folder to your VSCode extensions directory:
-   - **Mac/Linux**: `~/.vscode/extensions/`
-   - **Windows**: `%USERPROFILE%\.vscode\extensions\`
+2. Package the extension:
+   ```bash
+   npx vsce package
+   ```
 
-3. Restart VSCode and activate the theme
+3. Install via VSCode:
+   - Press `Cmd+Shift+P` (Mac) or `Ctrl+Shift+P` (Windows/Linux)
+   - Type "Extensions: Install from VSIX"
+   - Navigate to the `.vsix` file created in the previous step
+
+4. Restart VSCode and activate the theme:
+   - Press `Cmd+K Cmd+T` (Mac) or `Ctrl+K Ctrl+T` (Windows/Linux)
+   - Select "Claude Inspired Light" or "Claude Inspired Dark"
 
 ### Method 3: Development Mode
 
