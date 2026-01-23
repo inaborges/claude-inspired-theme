@@ -1,119 +1,36 @@
-# Claude Inspired Theme
+# Claude Inspired Theme 🎨
 
-A warm, professional VSCode theme inspired by Claude's design aesthetic. Features Claude's signature orange accent colors with carefully chosen complementary colors for syntax highlighting.
+Um tema para VS Code focado em clareza, produtividade e segurança, inspirado na paleta de cores do Claude Code. 
 
-## Screenshots
+## 🌟 Por que este tema?
 
-### Light Theme
-Warm, inviting colors with excellent contrast for long coding sessions.
+Diferente da maioria dos temas disponíveis no Marketplace, este projeto nasceu de uma necessidade dupla no ecossistema **Salesforce / Revenue Cloud**:
 
-### Dark Theme
-A comfortable dark theme with the same warm palette, perfect for low-light environments.
+1.  **Governança & Segurança:** No desenvolvimento para Salesforce, lidamos com dados sensíveis e metadados críticos. Este tema foi desenvolvido localmente e é distribuído de forma transparente, eliminando os riscos de conformidade associados a extensões de terceiros não verificadas.
+2.  **Arquitetura de Soluções & Workflow:** Criado para complementar um fluxo de trabalho baseado em **Spec-driven Development**. A paleta de cores foi ajustada para reduzir a fadiga cognitiva durante a leitura de especificações complexas e configurações de CPQ (Price Rules, Product Rules, etc).
 
-## Features
+## 🚀 O meu Workflow
 
-- **Two variants**: Light and Dark themes
-- **Warm color palette**: Inspired by Claude's signature orange (#D97757)
-- **Carefully selected syntax colors**: Optimized for readability
-- **Complete UI theming**: Consistent colors across all VSCode UI elements
-- **Git decorations**: Clear visual indicators for file changes
+Este tema é o "escritório digital" onde aplico IA para domar a complexidade do Salesforce:
+- **Spec-first:** Design da solução antes da configuração.
+- **IA-Powered:** Uso do Claude Code para gerar documentação técnica e scripts de validação.
+- **Foco:** Contraste equilibrado para sessões intensas de arquitetura de sistemas.
 
-## Installation
+## 🛠️ Instalação
 
-### Method 1: Install from GitHub Release (Recommended)
+Como este é um tema focado em segurança e uso controlado, a instalação é feita manualmente:
 
-1. Go to the [Releases page](https://github.com/inaborges/claude-inspired-theme/releases)
-2. Download the latest `.vsix` file from the release assets
-3. Open VSCode
-4. Press `Cmd+Shift+P` (Mac) or `Ctrl+Shift+P` (Windows/Linux)
-5. Type "Extensions: Install from VSIX"
-6. Select the downloaded `.vsix` file
-7. Restart VSCode
-8. Activate the theme:
-   - Press `Cmd+K Cmd+T` (Mac) or `Ctrl+K Ctrl+T` (Windows/Linux)
-   - Select "Claude Inspired Light" or "Claude Inspired Dark"
+1. Faça o download do arquivo `claude-inspired-theme-0.0.1.vsix` (ou clone o repositório).
+2. No VS Code, abra a aba de **Extensions** (`Ctrl+Shift+X`).
+3. Clique no menu de três pontos (`...`) no canto superior direito.
+4. Selecione **Install from VSIX...**.
+5. Escolha o arquivo baixado e aplique o tema.
 
-### Method 2: Install from Source
+## 🎨 Paleta de Cores
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/inaborges/claude-inspired-theme.git
-   cd claude-inspired-theme
-   ```
-
-2. Package the extension:
-   ```bash
-   npx vsce package
-   ```
-
-3. Install via VSCode:
-   - Press `Cmd+Shift+P` (Mac) or `Ctrl+Shift+P` (Windows/Linux)
-   - Type "Extensions: Install from VSIX"
-   - Navigate to the `.vsix` file created in the previous step
-
-4. Restart VSCode and activate the theme:
-   - Press `Cmd+K Cmd+T` (Mac) or `Ctrl+K Ctrl+T` (Windows/Linux)
-   - Select "Claude Inspired Light" or "Claude Inspired Dark"
-
-### Method 3: Development Mode
-
-1. Clone the repository
-2. Open the folder in VSCode
-3. Press `F5` to open a new VSCode window with the theme loaded
-4. Test and preview the theme
-
-## Color Palette
-
-### Key Colors
-
-- **Primary Orange**: `#D97757` - The signature Claude color
-- **Accent Orange**: `#E88567` - Lighter variant for hover states
-- **Green (Strings)**: `#52A66E` - Calm, readable green
-- **Blue (Functions)**: `#5B9BD5` - Professional blue
-- **Yellow (Classes)**: `#D9A357` - Warm golden yellow
-- **Purple (Constants)**: `#B87BA8` - Soft purple for numbers and constants
-
-### Theme Philosophy
-
-This theme aims to capture Claude's warm, approachable, and professional aesthetic:
-- Warm neutrals instead of stark blacks and whites
-- Orange as the primary accent color (keywords, status bar, active elements)
-- Balanced contrast for comfortable extended use
-- Thoughtful color choices that reduce eye strain
-
-## Customization
-
-To customize colors, edit the theme files:
-- Light theme: `themes/claude-light.json`
-- Dark theme: `themes/claude-dark.json`
-
-After making changes, reload VSCode to see updates.
-
-## Building the Extension
-
-To package this theme as a `.vsix` file:
-
-1. Install vsce (Visual Studio Code Extensions tool):
-   ```bash
-   npm install -g @vscode/vsce
-   ```
-
-2. Package the extension:
-   ```bash
-   cd claude-theme
-   vsce package
-   ```
-
-3. This creates a `.vsix` file you can share or install
-
-## Contributing
-
-Feel free to submit issues or pull requests to improve the theme!
-
-## License
-
-MIT License - Feel free to use and modify as you wish.
+- **Background:** Inspirado no tom sóbrio e focado da interface do Claude.
+- **Syntax:** Otimizada para legibilidade em JSON (registros de CPQ), Apex e Markdown (essencial para as *specs*).
 
 ---
 
-**Enjoy coding with Claude's warm aesthetic!** 🟠
+Feito com ☕ e foco em **Salesforce Architecture**.
