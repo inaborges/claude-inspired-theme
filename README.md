@@ -31,4 +31,4 @@ Como este é um tema focado em segurança e uso controlado, a instalação é fe
 - **Background:** Inspirado no tom sóbrio e focado da interface do Claude.
 - **Syntax:** Otimizada para legibilidade em JSON, Apex e Markdown (essencial para as *specs*).
 
----
+
